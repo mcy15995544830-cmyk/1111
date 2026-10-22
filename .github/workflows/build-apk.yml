@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unpack zip
-        run: unzip -o ChuangyouDraw_v9.zip -d .
+        run: unzip -o "apk-build.zip" -d .
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
