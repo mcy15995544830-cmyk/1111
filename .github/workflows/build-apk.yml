@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unpack zip
-        run: unzip -o ChuangyouDraw_v6.zip -d .
+        run: unzip -o ChuangyouDraw_v7.zip -d .
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
